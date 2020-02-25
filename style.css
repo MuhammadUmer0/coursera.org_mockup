@@ -11,10 +11,13 @@
 }
 header {
   height: 65px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  background-color: white;
+  position: fixed;
 }
 header img {
   width: 127px;
@@ -166,3 +169,15 @@ main button:hover{
     height: 410px;
     position: absolute;
 } */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.partners{
+    height: 140px;
+    width: 80%;
+    background-color: yellow;
+    
+}
