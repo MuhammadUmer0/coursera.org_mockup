@@ -6,38 +6,46 @@
 :root{
     --selectBG: #2a73cc;
     --searchColor: #333333;
+    --headerButtonHover: #005BBE;
 }
 header{
     height: 65px;
-    background-color: aqua;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
 }
+header img{
+    width: 127px;
+    height: 32px;
+}
 select{
     width: 92px;
-    height: 46px;
+    height: 40px;
     background-color: var(--selectBG);
     outline: none;
     border: none;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 700;
+    color: white;
+    padding-left: 10px;
+    border-radius: 10px;
 }
 .leftHeader{
     height: 40px;
     width: 774px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: yellowgreen;
 }
 .rightHeader{
     height: 36px;
     width: 363px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: #2a73cc;
 }
 input{
     height: 40px;
@@ -47,18 +55,53 @@ input{
     font-size: 16px;
     line-height: 24px;
     color: var(--searchColor);
-    outline: none;
-    border: none;
+    outline: none;   
+}
+header a{
+    text-decoration: none;
+    color: var(--searchColor);
+}
+header a:hover{
+    text-decoration: none;
+    color: var(--selectBG);
 }
 header p{
     font-size: 14px;
-    font-weight: 400;
-    color: var(--searchColor);
     font-weight: 400;
 }
 header p:hover{
     font-size: 14px;
     font-weight: 400;
-    color: var(--selectBG);
+}
+header button{
+    height: 36px;
+    width: 111px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: var(--selectBG);
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    line-height: 4px;
+    font-weight: 400;
+}
+header button:hover{
+    height: 36px;
+    width: 111px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: var(--headerButtonHover);
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    line-height: 4px;
     font-weight: 400;
 }
