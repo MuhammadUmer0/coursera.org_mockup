@@ -108,7 +108,13 @@ header button:hover {
 }
 main{
     height: 410px;
-    background-image: url(images/robot-girl.jpg);
+    /* background-image: url(images/robot-girl.jpg); */
     background-position: center top;
     background-image: var(--mainImgGradient);
+    position: relative;
 }
+/* img{
+    width: 100%;
+    height: 410px;
+    position: absolute;
+} */
