@@ -1,107 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'OpenSans', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "OpenSans", Arial, sans-serif;
 }
-:root{
-    --selectBG: #2a73cc;
-    --searchColor: #333333;
-    --headerButtonHover: #005BBE;
+:root {
+  --selectBG: #2a73cc;
+  --searchColor: #333333;
+  --headerButtonHover: #005bbe;
+  --mainImgGradient: linear-gradient(90deg,#271066,rgba(39,16,102,0) 55%,rgba(39,16,102,0) 70%,#271066);
 }
-header{
-    height: 65px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+header {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
-header img{
-    width: 127px;
-    height: 32px;
+header img {
+  width: 127px;
+  height: 32px;
 }
-select{
-    width: 92px;
-    height: 40px;
-    background-color: var(--selectBG);
-    outline: none;
-    border: none;
-    font-size: 14px;
-    line-height: 36px;
-    font-weight: 700;
-    color: white;
-    padding-left: 10px;
-    border-radius: 10px;
+select {
+  width: 92px;
+  height: 40px;
+  background-color: var(--selectBG);
+  outline: none;
+  border: none;
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 700;
+  color: white;
+  padding-left: 10px;
+  border-radius: 5px;
 }
-.leftHeader{
-    height: 40px;
-    width: 774px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.leftHeader {
+  height: 40px;
+  width: 774px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.rightHeader{
-    height: 36px;
-    width: 363px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.rightHeader {
+  height: 36px;
+  width: 365px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-input{
-    height: 40px;
-    width: 490px;
-    padding-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--searchColor);
-    outline: none;   
+input {
+  height: 40px;
+  width: 490px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--searchColor);
+  outline: none;
 }
-header a{
-    text-decoration: none;
-    color: var(--searchColor);
+header a {
+  text-decoration: none;
+  color: var(--searchColor);
 }
-header a:hover{
-    text-decoration: none;
-    color: var(--selectBG);
+header a:hover {
+  text-decoration: none;
+  color: var(--selectBG);
 }
-header p{
-    font-size: 14px;
-    font-weight: 400;
+header p {
+  font-size: 14px;
+  font-weight: 400;
 }
-header p:hover{
-    font-size: 14px;
-    font-weight: 400;
+header p:hover {
+  font-size: 14px;
+  font-weight: 400;
 }
-header button{
-    height: 36px;
-    width: 111px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border: none;
-    outline: none;
-    background-color: var(--selectBG);
-    cursor: pointer;
-    color: white;
-    font-size: 14px;
-    line-height: 4px;
-    font-weight: 400;
+header button {
+  height: 36px;
+  width: 111px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: var(--selectBG);
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  line-height: 4px;
+  font-weight: 400;
 }
-header button:hover{
-    height: 36px;
-    width: 111px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border: none;
-    outline: none;
-    background-color: var(--headerButtonHover);
-    cursor: pointer;
-    color: white;
-    font-size: 14px;
-    line-height: 4px;
-    font-weight: 400;
+header button:hover {
+  height: 36px;
+  width: 111px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: var(--headerButtonHover);
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  line-height: 4px;
+  font-weight: 400;
+}
+main{
+    height: 410px;
+    background-image: url(images/robot-girl.jpg);
+    background-position: center top;
+    background-image: var(--mainImgGradient);
 }
