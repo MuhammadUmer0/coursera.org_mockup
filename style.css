@@ -111,7 +111,55 @@ main{
     /* background-image: url(images/robot-girl.jpg); */
     background-position: center top;
     background-image: var(--mainImgGradient);
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+main .content{
+    height: 230px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+main h1{
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+}
+main p{
+    width: 470px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+main button{
+    height: 76px;
+    width: 217px;
+    background-color: white;
+    color: var(--selectBG);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+main button:hover{
+    height: 76px;
+    width: 217px;
+    background-color: var(--selectBG);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    cursor: pointer;
 }
 /* img{
     width: 100%;
