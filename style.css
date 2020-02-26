@@ -9,6 +9,7 @@
   --headerButtonHover: #005bbe;
   --mainImgGradient: linear-gradient(90deg,#271066,rgba(39,16,102,0) 55%,rgba(39,16,102,0) 70%,#271066);
   --goalsColHeading: #666666;
+  --promoColor: #373a3c;
 }
 header {
   height: 65px;
@@ -243,4 +244,31 @@ section{
     font-size: 16px;
     line-height: 27px;
     font-weight: 400;
+}
+.promo{
+    height: 380px;
+    width: 100%;
+    background-color: #D6EDF6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--promoColor);
+}
+.promo .content{
+    height: 150px;
+    width: 500px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 2.5em;
+    
+}
+.promo p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 1em;
+}
+.bold{
+    font-weight: bolder;
 }
