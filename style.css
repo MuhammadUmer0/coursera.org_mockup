@@ -171,6 +171,7 @@ main button:hover{
 } */
 section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -203,4 +204,9 @@ section{
 .imgRow img{
     height: 35px;
     width: 100px;
+}
+.goals{
+    height: 500px;
+    width: 80%;
+    background-color: var(--selectBG);
 }
