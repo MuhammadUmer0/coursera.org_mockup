@@ -173,11 +173,34 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
 }
 .partners{
-    height: 140px;
+    height: 150px;
     width: 80%;
-    background-color: yellow;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.partners a{
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
+}
+.partners a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--selectBG);
+    color: var(--selectBG);
+}
+.partners .imgRow{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgRow img{
+    height: 35px;
+    width: 100px;
 }
