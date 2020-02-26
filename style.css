@@ -8,6 +8,7 @@
   --searchColor: #333333;
   --headerButtonHover: #005bbe;
   --mainImgGradient: linear-gradient(90deg,#271066,rgba(39,16,102,0) 55%,rgba(39,16,102,0) 70%,#271066);
+  --goalsColHeading: #666666;
 }
 header {
   height: 65px;
@@ -206,7 +207,40 @@ section{
     width: 100px;
 }
 .goals{
-    height: 500px;
+    height: 400px;
     width: 80%;
-    background-color: var(--selectBG);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.goals h1{
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+}
+.goalsRow{
+    height: 230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.goalsCol{
+    height: 230px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.goalsCol h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.goals p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
 }
