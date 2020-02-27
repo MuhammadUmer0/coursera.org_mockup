@@ -7,7 +7,13 @@
   --selectBG: #2a73cc;
   --searchColor: #333333;
   --headerButtonHover: #005bbe;
-  --mainImgGradient: linear-gradient(90deg,#271066,rgba(39,16,102,0) 55%,rgba(39,16,102,0) 70%,#271066);
+  --mainImgGradient: linear-gradient(
+    90deg,
+    #271066,
+    rgba(39, 16, 102, 0) 55%,
+    rgba(39, 16, 102, 0) 70%,
+    #271066
+  );
   --goalsColHeading: #666666;
   --promoColor: #373a3c;
 }
@@ -111,216 +117,223 @@ header button:hover {
   line-height: 4px;
   font-weight: 400;
 }
-main{
-    height: 410px;
-    /* background-image: url(images/robot-girl.jpg); */
-    background-position: center top;
-    background-image: var(--mainImgGradient);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* position: relative; */
+main {
+  height: 410px;
+  /* background-image: url(images/robot-girl.jpg); */
+  background-position: center top;
+  background-image: var(--mainImgGradient);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
 }
-main .content{
-    height: 230px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: white;
+main .content {
+  height: 230px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
 }
-main h1{
-    font-size: 40px;
-    line-height: 52px;
-    font-weight: 700;
+main h1 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
 }
-main p{
-    width: 470px;
-    height: 60px;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 500;
+main p {
+  width: 470px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
 }
-main button{
-    height: 76px;
-    width: 217px;
-    background-color: white;
-    color: var(--selectBG);
-    outline: none;
-    border: none;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: ease 0.3s;
+main button {
+  height: 76px;
+  width: 217px;
+  background-color: white;
+  color: var(--selectBG);
+  outline: none;
+  border: none;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: ease 0.3s;
 }
-main button:hover{
-    height: 76px;
-    width: 217px;
-    background-color: var(--selectBG);
-    color: white;
-    outline: none;
-    border: none;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 700;
-    cursor: pointer;
+main button:hover {
+  height: 76px;
+  width: 217px;
+  background-color: var(--selectBG);
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  cursor: pointer;
 }
 /* img{
     width: 100%;
     height: 410px;
     position: absolute;
 } */
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.partners{
-    height: 150px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid gray;
+.partners {
+  height: 150px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
 }
-.partners a{
-    text-decoration: underline;
-    text-decoration-color: black;
-    color: black;
+.partners a {
+  text-decoration: underline;
+  text-decoration-color: black;
+  color: black;
 }
-.partners a:hover{
-    text-decoration: underline;
-    text-decoration-color: var(--selectBG);
-    color: var(--selectBG);
+.partners a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--selectBG);
+  color: var(--selectBG);
 }
-.partners .imgRow{
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.partners .imgRow {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.imgRow img{
-    height: 35px;
-    width: 100px;
+.imgRow img {
+  height: 35px;
+  width: 100px;
 }
-.goals{
-    height: 400px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.goals {
+  height: 400px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-.goals h1{
-    font-size: 32px;
-    line-height: 44px;
-    font-weight: 700;
+.goals h1 {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
 }
-.goalsRow{
-    height: 230px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.goalsRow {
+  height: 230px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.goalsCol{
-    height: 230px;
-    width: 190px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.goalsCol {
+  height: 230px;
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.goalsCol h3{
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 400;
+.goalsCol h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
 }
-.goals p{
-    font-size: 16px;
-    line-height: 27px;
-    font-weight: 400;
+.goals p {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
 }
-.promo{
-    height: 380px;
-    width: 100%;
-    background-color: #D6EDF6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--promoColor);
+.promo {
+  height: 380px;
+  width: 100%;
+  background-color: #d6edf6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--promoColor);
 }
-.promo .content{
-    height: 150px;
-    width: 500px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 35px;
-    margin-left: 2.5em;
+.promo .content {
+  height: 150px;
+  width: 500px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-left: 2.5em;
 }
-.promo p{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    margin-top: 1em;
+.promo p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 1em;
 }
-.bold{
-    font-weight: bolder;
+.bold {
+  font-weight: bolder;
 }
-.features{
-    width: 80%;
-    height: 300px;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.features {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.features h1{
-    line-height: 44px;
-    font-size: 32px;
-    color: var(--promoColor);
-    font-weight: 700;
+.features h1 {
+  line-height: 44px;
+  font-size: 32px;
+  color: var(--promoColor);
+  font-weight: 700;
+  margin-top: 3em;
 }
-.featuresRow{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.featuresRow {
+  width: 100%;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-.featuresCol{
-    height: 247px;
-    width: 328px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    
+.featuresColContent {
+  height: 200px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.featuresCol h4{
-    font-size: 14px;
-    line-height: 32px;
-    font-weight: 700;
-    color: var(--goalsColHeading);
-    text-transform: uppercase;
+.featuresColContent h4 {
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 700;
+  color: var(--goalsColHeading);
+  text-transform: uppercase;
 }
-.featuresCol h3{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-    color:#1f1f1f;
+.featuresColContent h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #1f1f1f;
 }
-.hr{
-    border-bottom: 2px solid var(--selectBG);
-    width: 70px;
+.hr {
+  border-bottom: 2px solid var(--selectBG);
+  width: 70px;
 }
-.featuresCol p{
-    font-size: 16px;
-    line-height: 32px;
-    font-weight: 400;
-    color: #1f1f1f;
+.featuresColContent p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #1f1f1f;
+}
+.featuresCol img {
+  width: 695px;
+  height: 588px;
+}
+.featuresCol1 img {
+  width: 400px;
+  height: 400px;
 }
