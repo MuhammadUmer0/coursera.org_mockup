@@ -261,7 +261,6 @@ section{
     font-weight: 400;
     line-height: 35px;
     margin-left: 2.5em;
-    
 }
 .promo p{
     font-size: 16px;
@@ -271,4 +270,57 @@ section{
 }
 .bold{
     font-weight: bolder;
+}
+.features{
+    width: 80%;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.features h1{
+    line-height: 44px;
+    font-size: 32px;
+    color: var(--promoColor);
+    font-weight: 700;
+}
+.featuresRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.featuresCol{
+    height: 247px;
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.featuresCol h4{
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 700;
+    color: var(--goalsColHeading);
+    text-transform: uppercase;
+}
+.featuresCol h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color:#1f1f1f;
+}
+.hr{
+    border-bottom: 2px solid var(--selectBG);
+    width: 70px;
+}
+.featuresCol p{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #1f1f1f;
 }
