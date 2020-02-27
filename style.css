@@ -342,9 +342,8 @@ section {
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: centerSS;
     align-items: center;
-    background-color: var(--headerButtonHover);
 }
 .community h1{
     font-size: 32px;
@@ -356,4 +355,26 @@ section {
     line-height: 44px;
     font-weight: 500;
     color:#666666;
+}
+.communityRow{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.communityCol{
+    height: 550px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.communityCol img{
+    height: 200px;
+    width: 250px;
+}
+.communityCol h6{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
 }
