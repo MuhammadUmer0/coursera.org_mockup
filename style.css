@@ -16,6 +16,7 @@
   );
   --goalsColHeading: #666666;
   --promoColor: #373a3c;
+  --joinGB: #FCF4CF;
 }
 header {
   height: 65px;
@@ -385,4 +386,9 @@ section {
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
+}
+.join{
+  height: 380px;
+  width: 100%;
+  background-color: var(--joinGB);
 }
